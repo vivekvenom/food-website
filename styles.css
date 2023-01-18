@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+}
+
+.foodList{
+    margin: 2rem 3rem;
+}
+
+.filters{
+    margin: 2rem 3rem;
+}
+
+.buttons{
+    margin-top: 1rem;
+}
+
+button{
+    padding: 0.5rem 1.5rem;
+    border: none;
+    text-align: center;
+    background-color:#B2AAAA;
+}
+ button + button{
+    margin-left: 2rem;
+ }
+
+ #fooditems{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 1rem;
+ }
+
+.card{
+    padding: 0.5rem;
+    width: 24%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #B2AAAA;
+    font-size: 0.85rem;
+}
+
+
+ img{
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+ }
+
+ .hide{
+    display: none;
+ }
